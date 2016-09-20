@@ -1,0 +1,53 @@
+body{	
+	background-image: url(../images/wallpaper.jpg);
+	background-size: 100%;
+}
+a{
+	text-decoration: none;
+}
+.wrappergod{
+	height: 100%;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.gb{
+	background-color:rgba(35,35,35,0.95);
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+}
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color: white;
+	text-align: center;
+}
+.home{
+	height: 30px;
+	width: 25px;
+	position: relative;
+	float: right;
+	padding-top: 20px;
+	padding-right: 60px;
+}
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+}
+.headings{
+	padding-top: 7%;
+	height: 152px;
+	width: 351px;
+	margin: 0 auto;
+}
