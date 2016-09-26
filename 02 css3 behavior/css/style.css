@@ -21,6 +21,9 @@ h2{
 	color: white;
 	text-align: center;
 }
+h2:hover {
+	animation-name: blinker 1s linear infinite;
+}
 h3{
 	font-size: 15px;
 	color: white;
