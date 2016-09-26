@@ -39,7 +39,7 @@ h2{
 	text-align: center;
 }
 h2:hover {
-	    -webkit-animation-name: blinker;
+    -webkit-animation-name: blinker;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
@@ -106,72 +106,15 @@ h3{
 	top: 0px;
 	left: 0px;
 }
-@-webkit-keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-@-moz-keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-@-o-keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-@-ms-keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-@keyframes fadeOutUp {
-  from {
-    opacity: 1;
-  }
-
-  to {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-}
-.homeb:hover {
+.homeb{
 	height: inherit;
 	width: 60px;
 	position: relative;
 	float: right;
 	margin-right: 40px;
-    -webkit-animation-name: fadeOutUp;
-    -moz-animation-name: fadeOutUp;
-    -ms-animation-name: fadeOutUp;
-    -o-animation-name: fadeOutUp;
-    animation-name: fadeOutUp;
+}
+.homeb:hover {
+	opacity: .50;
 }
 h5{
 	font-size: 14px;
