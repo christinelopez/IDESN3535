@@ -113,6 +113,9 @@ h3{
 	float: right;
 	margin-right: 40px;
     -webkit-animation-name: fadeOutUp;
+    -moz-animation-name: fadeOutUp;
+    -ms-animation-name: fadeOutUp;
+    -o-animation-name: fadeOutUp;
     animation-name: fadeOutUp;
 }
 h5{
