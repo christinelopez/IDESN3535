@@ -39,7 +39,20 @@ h2{
 	text-align: center;
 }
 h2:hover {
-	animation-name: blinker 1s linear infinite;
+	    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 h3{
 	font-size: 15px;
@@ -99,6 +112,8 @@ h3{
 	position: relative;
 	float: right;
 	margin-right: 40px;
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp;
 }
 h5{
 	font-size: 14px;
