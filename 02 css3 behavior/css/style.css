@@ -52,6 +52,7 @@ h3{
 	height: 152px;
 	width: 351px;
 	margin: 0 auto;
+	animation-name: fadein;
 }
 .wrappergod2{
 	height: 100%;
