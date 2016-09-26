@@ -16,6 +16,9 @@ h1{
 	text-align: center;
 	text-shadow: 0 0 3px grey;
 }
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
 h2{
 	font-size: 50px;
 	color: white;
