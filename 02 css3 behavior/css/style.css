@@ -90,7 +90,7 @@ h3{
     -ms-animation: fadein 2s; /* Internet Explorer */
     -o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
-};
+}
 }
 .wrappergod2{
 	height: 100%;
@@ -138,39 +138,12 @@ h5{
 	position: relative;
 	float: top;
 }
-/*@-webkit-keyframes slideInDown {
-  from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-*/
-@keyframes slideOutDown {
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-}
 h3{
 	font-size: 30px;
 	color: white;
 	text-shadow: 0 0 3px grey;
 	text-align: center;
 	padding-top: 30px;
-/*    -webkit-animation-name: slideInDown;*/
-    animation-name: slideOutDown;
 }
 .boxtxt{
 	height: 200px;
@@ -180,6 +153,14 @@ h3{
 	padding-top: 50px;
 	position: relative;
 	float: bottom;
+}
+@keyframes pulse {
+  0%, 100% {
+    background-color: #ff0066;
+  }
+  50% {
+    background-color: black;
+  }
 }
 .button{
 	height: 40px;
@@ -196,6 +177,10 @@ h6{
 	margin: 0 auto;
 	background-color: #ff0066;
 	padding-top: 15px;
+	animation: pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 .content{
 	height: 100%;
