@@ -138,12 +138,39 @@ h5{
 	position: relative;
 	float: top;
 }
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
 h3{
 	font-size: 30px;
 	color: white;
 	text-shadow: 0 0 3px grey;
 	text-align: center;
 	padding-top: 30px;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
 }
 .boxtxt{
 	height: 200px;
