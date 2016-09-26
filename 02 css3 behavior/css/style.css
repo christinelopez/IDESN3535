@@ -16,8 +16,22 @@ h1{
 	text-align: center;
 	text-shadow: 0 0 3px grey;
 }
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
 @keyframes blinker {  
-  50% { opacity: 0; }
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
 }
 h2{
 	font-size: 50px;
