@@ -161,7 +161,7 @@ h3{
     transform: translate3d(0, -100%, 0);
   }
 }
-.homeb{
+.homeb:hover {
 	height: inherit;
 	width: 60px;
 	position: relative;
