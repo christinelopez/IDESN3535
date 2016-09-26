@@ -138,7 +138,7 @@ h5{
 	position: relative;
 	float: top;
 }
-@-webkit-keyframes slideInDown {
+/*@-webkit-keyframes slideInDown {
   from {
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
@@ -150,17 +150,17 @@ h5{
     transform: translate3d(0, 0, 0);
   }
 }
-
-@keyframes slideInDown {
+*/
+@keyframes slideOutDown {
   from {
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-    visibility: visible;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
   }
 }
 h3{
@@ -169,8 +169,8 @@ h3{
 	text-shadow: 0 0 3px grey;
 	text-align: center;
 	padding-top: 30px;
-    -webkit-animation-name: slideInDown;
-    animation-name: slideInDown;
+/*    -webkit-animation-name: slideInDown;*/
+    animation-name: slideOutDown;
 }
 .boxtxt{
 	height: 200px;
