@@ -241,11 +241,11 @@ h6{
 	background-color: red;
 }
 #square1:hover {
-	transform: scale(1.5);
+	transform: scale(1.2);
 	transition: 1s;
 }
 #square2:hover {
-	transform: scale(1.5);
+	transform: scale(1.2);
 	transition: 1s;
 }
 .txt{
