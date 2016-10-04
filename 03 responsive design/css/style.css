@@ -1,0 +1,362 @@
+body {
+  font-family: 'Raleway', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.wrappergod1 {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px; }
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  text-shadow: 0 0 3px grey; }
+
+@-moz-keyframes blinker {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+@-webkit-keyframes blinker {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+@keyframes blinker {
+  0% {
+    opacity: 1.0; }
+  50% {
+    opacity: 0.0; }
+  100% {
+    opacity: 1.0; } }
+h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center; }
+
+h2:hover {
+  -webkit-animation-name: blinker;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: blinker;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+  animation-name: blinker;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+h3 {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin: 0 auto; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-ms-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.headings {
+  height: 152px;
+  width: 351px;
+  margin: 0 auto;
+  padding-top: 10%;
+  -webkit-animation: fadein 2s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 2s;
+  /* Internet Explorer */
+  -o-animation: fadein 2s;
+  /* Opera < 12.1 */
+  animation: fadein 2s; }
+
+.wrappergod2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+  background-color: white; }
+
+.bannertop {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(35, 35, 35, 0.95);
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.homeb {
+  height: inherit;
+  width: 60px;
+  position: relative;
+  float: right;
+  margin-right: 1%; }
+
+.homeb:hover {
+  opacity: .50; }
+
+h5 {
+  font-size: 14px;
+  color: white;
+  text-align: center; }
+
+.tittle {
+  height: 100%;
+  width: 40%;
+  background-image: url(../images/tittleback.jpg);
+  position: absolute;
+  top: 50px;
+  left: 0 px; }
+
+.tt {
+  height: 200px;
+  width: 100%;
+  position: relative;
+  float: top; }
+
+@-webkit-keyframes tada {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  10%, 20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+h3 {
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 0 3px grey;
+  text-align: center; }
+
+.boxtxt {
+  height: 30%;
+  width: 90%;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 20px;
+  margin-top: 20%;
+  position: relative; }
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: #ff0066; }
+  50% {
+    background-color: #ffd9cc; } }
+.button {
+  height: 40px;
+  width: 80px;
+  position: relative;
+  margin-top: 20px;
+  float: bottom;
+  float: right; }
+
+h6 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ff0066;
+  animation: pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transition: 2s; }
+
+.content {
+  height: 100%;
+  width: 60%;
+  float: right;
+  background-color: white; }
+
+.pict {
+  height: 200px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px; }
+
+#square1 {
+  height: 100%;
+  position: relative;
+  float: left; }
+
+#square2 {
+  height: 100%;
+  position: relative;
+  float: right; }
+
+#square1:hover {
+  transform: scale(1.2);
+  transition: 1s; }
+
+#square2:hover {
+  transform: scale(1.2);
+  transition: 1s; }
+
+.txt {
+  height: 50px;
+  width: 85%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px; }
+
+.txt:hover {
+  transform: scale(1.2);
+  transition: 1s; }
+
+h4 {
+  font-size: 20px;
+  margin-left: 2%; }
+
+@media (max-width: 940px) {
+  h1 {
+    font-size: 50px; }
+
+  h4 {
+    font-size: 12px; }
+
+  #square1 {
+    height: 80%; }
+
+  #square2 {
+    height: 80%; }
+
+  h3 {
+    font-size: 20px; } }
+@media (max-width: 725px) {
+  .headings {
+    padding-top: 30%; }
+
+  h1 {
+    font-size: 40px; }
+
+  h2 {
+    font-size: 25px; }
+
+  .pict {
+    height: 150px; }
+
+  .txt {
+    height: 30px; }
+
+  h3 {
+    font-size: 15px; }
+
+  h4 {
+    font-size: 9px; }
+
+  h5 {
+    font-size: 10px; }
+
+  h6 {
+    font-size: 10px; }
+
+  .button {
+    width: 40px; } }
+@media (max-width: 614px) {
+  .headings {
+    padding-top: 30%; }
+
+  h1 {
+    font-size: 30; }
+
+  h4 {
+    font-size: 8px; }
+
+  .pict {
+    height: 100px; }
+
+  .txt {
+    margin-left: 25px;
+    margin-right: 25px; }
+
+  .txt:hover {
+    transform: scale(1.1);
+    transition: 1s; } }
+@media (max-width: 375px) {
+  .headings {
+    padding-top: 0%;
+    height: 80%;
+    width: 90%; }
+
+  h1 {
+    font-size: 30px; }
+
+  .tittle {
+    height: 30%;
+    width: 100%; }
+
+  .tt {
+    height: 80%;
+    width: 40%;
+    float: left;
+    margin-top: 0; }
+
+  .boxtxt {
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    right: 5px;
+    margin-top: 5px; }
+
+  .content {
+    position: absolute;
+    bottom: 20%;
+    height: 40%;
+    width: 100%; }
+
+  .button {
+    width: 40px;
+    position: absolute;
+    right: 5px;
+    top: 153px; }
+
+  .pict {
+    height: 60%;
+    margin-top: 2%; }
+
+  .txt {
+    height: 10%;
+    margin-top: 3%; } }
+
+/*# sourceMappingURL=style.css.map */
