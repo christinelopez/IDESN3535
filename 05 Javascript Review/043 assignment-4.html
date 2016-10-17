@@ -58,15 +58,20 @@ If you have any questions, please send Saul a message through Slack (http://baiz
     console.log('Need something else? Try an extension!') ;
 
 </script>
+
 <script type="text/javascript">
     var myWidth = 0, myHeight = 0;
-    if( typeof( window.innerWidth ) == 'number' ) {
-        myWidth = window.innerWidth; myHeight = window.innerHeight;
-    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
-        myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
-    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
-        myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
-    }
+
+
+    document.write("width: "  +  window.innerWidth   +    'px ') ;
+    document.write("height: "  +  window.innerHeight   +    'px');
+//    if( typeof( window.innerWidth ) == 'number' ) {
+//        myWidth = window.innerWidth; myHeight = window.innerHeight;
+//    } else if( document.documentElement && ( document.documentElement.clientWidth ||document.documentElement.clientHeight ) ) {
+//        myWidth = document.documentElement.clientWidth; myHeight = document.documentElement.clientHeight;
+//    } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+//        myWidth = document.body.clientWidth; myHeight = document.body.clientHeight;
+//    }
 </script>
 
     <head>
@@ -79,25 +84,25 @@ If you have any questions, please send Saul a message through Slack (http://baiz
 
 
 
+    <script>
 
-    <body onload="changeBackground('yellow');">
+        document.body.style.backgroundColor="yellow";
+
+    </script>
+
+<body>
 
 
-<script>
-    function changeBackground(yellow) {
-    document.body.style.background = yellow;
-    }
+    <script>
+        function changeBackground(yellow) {
+        document.body.style.background = yellow;
+        }
 
-</script>
+    </script>
 
 <!--suppress JSAnnotator -->
-<script>
 
-    function myFunction() {
-        document.('fruit') = Math.random();;
-    }
 
-</script>
 
         <h1>GETTING STARTED WITH BRACKETS</h1>
         <h2>This is your guide!</h2>
@@ -133,11 +138,21 @@ If you have any questions, please send Saul a message through Slack (http://baiz
               "watermelon",
               "peach",
               "mango",
-              "manderin",
+              "manderin"
             ];
 
-            document.write ("apple") ;
-            document.write (" mango") ;
+            document.write (fruit[2]) ;
+            document.write (fruit[5]) ;
+
+
+            function myName() {
+            var randomNumber = Math.Random() * (fruit.length);
+            var randomFruitIndex = Math.floor (randomNumber);
+            document.write("fruit: " + fruit[randomFruitIndex] );
+
+            }
+
+
         </script>
 
         <!--
@@ -279,10 +294,16 @@ If you have any questions, please send Saul a message through Slack (http://baiz
         <!--
             LET US KNOW WHAT YOU THINK
         -->
-        <h2>Get involved<script type="text/javascript">
+        <h2>Get involved
+
+            <script type="text/javascript">
           var myDate = ' today' ;
           document.write(myDate);
-        </script></h2>
+        </script>
+
+        </h2>
+
+
         <p>
             Brackets is an open-source project. Web developers from around the world are contributing to build
             a better code editor. Many more are building extensions that expand the capabilities of Brackets.
@@ -298,12 +319,31 @@ If you have any questions, please send Saul a message through Slack (http://baiz
             <li><a href="https://twitter.com/brackets">@brackets on Twitter</a></li>
             <li>Chat with Brackets developers on IRC in <a href="http://webchat.freenode.net/?channels=brackets&uio=d4">#brackets on Freenode</a></li>
         </ul>
+
         <script type="text/javascript">
-          var paragraph = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis egestas volutpat. Vestibulum sed metus consectetur, bibendum mi vitae, eleifend sem. Nam vulputate varius accumsan. Integer quis mauris ac justo varius efficitur. Fusce sed consectetur magna. Nam varius posuere arcu eu euismod. Praesent elementum tellus ac elementum interdum. Proin ut porta elit, a aliquam dui. Vestibulum placerat neque vitae ligula feugiat, et consectetur massa vehicula. Nullam in lectus sed libero viverra hendrerit. Nam a vehicula dolor. Suspendisse potenti. Sed convallis lacus a arcu hendrerit dignissim.' ;
+
+            var paragraph = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc convallis egestas volutpat. Vestibulum sed metus consectetur, bibendum mi vitae, eleifend sem. Nam vulputate varius accumsan. Integer quis mauris ac justo varius efficitur. Fusce sed consectetur magna. Nam varius posuere arcu eu euismod. Praesent elementum tellus ac elementum interdum. Proin ut porta elit, a aliquam dui. Vestibulum placerat neque vitae ligula feugiat, et consectetur massa vehicula. Nullam in lectus sed libero viverra hendrerit. Nam a vehicula dolor. Suspendisse potenti. Sed convallis lacus a arcu hendrerit dignissim.' ;
           document.write (paragraph) ;
 
-
         </script>
+
+    <script type="text/javascript">
+
+      alertdocument.getElementById('qv').textContent="quicker viewer";
+
+    </script>
+
+    <script type="text/javascript">
+        function printH3Tag(content) {
+            h3Open="<h3>";
+            h3Close="</h3>;
+            compiled=h3Open+content+h3Close;
+            compiledUpperer=compiled.toUpperCase();
+            document.write(compiledUpperer);
+
+        }
+
+    </script>
 
     </body>
 </html>

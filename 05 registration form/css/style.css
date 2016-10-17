@@ -1,0 +1,37 @@
+body{
+font-family: 'Raleway', sans-serif;
+}
+h1{
+    font-size: 100px;
+    margin: 0 auto;
+    float: right;
+}
+#wrapper{
+    height: 100%;
+    width: 80%;
+    position: relative;
+    margin-left: 0 auto;
+}
+#wrapper2{
+    width: 50%;
+}
+.myText{
+    margin-left: 10%;
+    width:90%;
+    height:50px;
+    background-color:gold;
+    color:olive;
+    border:none;
+    font: 20px;
+}
+.buttons{
+    background-color:yellowgreen;
+    color:white;
+    padding:20px;
+    font-size:18px;
+    border:none;
+    position: relative;
+    float: right;
+    float: bottom;
+
+}
