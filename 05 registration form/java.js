@@ -18,13 +18,15 @@ function validateForm()
 
     checkEqual(password,passwordverification);
 
-    var blueButton=document.getElementById("bluef");
+    var blueButton=document.getElementById("blue");
 
     var redButton=document.getElementById("red");
 
     var yellowButton=document.getElementById("yellow");
 
     var orangeButton=document.getElementById("orange");
+
+
 
 }
 function checklength(wordtocheck, minimumlength)  {
@@ -49,7 +51,7 @@ function checklength(wordtocheck, minimumlength)  {
 function checknumberandlength(wordtocheck, minimumlength) {
     if ( /\d/.test(wordtocheck.value) && (wordtocheck.value.length>minimumlength)){
         // The first name is more than 2 characters
-        console.log( wordtocheck.value+" contains number ");
+        console.log( wordtocheck.value+" contains number");
         wordtocheck.className = "correct";
         // check to see if object has assaighn to it, if it does remove it
     }

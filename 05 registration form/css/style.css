@@ -1,7 +1,7 @@
 body{
     font-family: 'Raleway', sans-serif;
-    background-image: url("../images/wallpaper.JPG");
-    color: whitesmoke;
+    /*background-image: url("../images/wallpaper.JPG");*/
+    color: black;
 }
 h1{
     font-size: 100px;
@@ -22,8 +22,8 @@ h1{
     width:90%;
     height:50px;
     background-color:white;
-    color:black;
-    font: 30px;
+    color: #000000;
+    font-size: 30px;
     margin-top: 10%;
 }
 #radiob{
