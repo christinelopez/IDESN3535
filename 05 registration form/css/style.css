@@ -1,5 +1,7 @@
 body{
-font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-image: url("../images/wallpaper.JPG");
+    color: whitesmoke;
 }
 h1{
     font-size: 100px;
@@ -15,23 +17,30 @@ h1{
 #wrapper2{
     width: 50%;
 }
-.myText{
+#firstname,#email,#password,#paswordverification{
     margin-left: 10%;
     width:90%;
     height:50px;
-    background-color:gold;
-    color:olive;
-    border:none;
-    font: 20px;
+    background-color:white;
+    color:black;
+    font: 30px;
+    margin-top: 10%;
+}
+#blue,#red,#yellow,#orange,h3{
+    margin-left: 5%;
 }
 .buttons{
-    background-color:yellowgreen;
+    background-color:lightgrey;
     color:white;
     padding:20px;
     font-size:18px;
     border:none;
-    position: relative;
-    float: right;
-    float: bottom;
+    position: fixed;
+    right: 300px;
+    top: 300px;
+
+}
+.error{
+    border: 1px solid red;
 
 }
