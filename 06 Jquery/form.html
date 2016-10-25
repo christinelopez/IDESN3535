@@ -18,27 +18,30 @@
 
     <div id="wrapper2">
 
-        <form action="" method="post" class="a">
 
         <form name="registration" id="formContent">
 
-        <input id="firstname" name="firstName" type="text" autofocus minlength="6" /><h2>Name (at least 6 characters)</h2>
+        <input id="firstname" name="firstName" type="text"  /><h2>Name (at least 6 characters)</h2>
+            <h3 id="fname">name must contain minimum of 2 characters</h3>
 
-        <input id="email" type="email" autofocus minlength="10" /><h2>Email (at least 10 characters long)</h2>
+        <input id="email" type="email"  name="Email" /><h2>Email (at least 10 characters long)</h2>
+            <h3 id="mail">name must contain minimum of 10 characters</h3>
 
         <input id="password" type="text" autofocus/><h2>Password (include 1 number)</h2>
+            <h3 id="pass">password must contain a number</h3>
 
         <input id="passwordverification" type="text" autofocus/><h2>Verify Password</h2>
+            <h3 id="passv">must match password entered </h3>
 
         <h4>Pick a color</h4>
 
-        <input type="radio" name="colorbutton" id="blue"/><h3> #0000ff blue</h3>
+        <input type="radio" name="colorbutton" id="blue" class="colors"/><h5> #0000ff blue</h5>
 
-        <input type="radio" name="colorbutton" id="red"/><h3>  #ff0000 red</h3>
+        <input type="radio" name="colorbutton" id="red" class="colors"/><h5>  #ff0000 red</h5>
 
-        <input type="radio" name="colorbutton" id="yellow"/><h3> #ffff00 yellow</h3>
+        <input type="radio" name="colorbutton" id="yellow" class="colors"/><h5> #ffff00 yellow</h5>
 
-        <input type="radio" name="colorbutton" id="orange"/><h3> #ffa500 orange</h3>
+        <input type="radio" name="colorbutton" id="orange" class="colors"/><h5> #ffa500 orange</h5>
 
         </form>
     </div>
