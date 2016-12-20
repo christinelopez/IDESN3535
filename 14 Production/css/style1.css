@@ -1,0 +1,278 @@
+body{
+    background-color: none;
+    height: 667px;
+    width: 375px;
+}
+a{
+    text-decoration: none;
+}
+#background1{
+    width: 375px;
+    height:667px;
+}
+#logoforlogin{
+    width: 335px;
+    height: 190px;
+    position: absolute;
+    left: 20px;
+    top: 190px;
+}
+#wrapperforlogin{
+   height: 667px;
+    width: 375px;
+}
+h1{
+    /*font-family: "flood-std",sans-serif;*/
+    /*font-style: normal;*/
+    /*font-weight: 400;*/
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: white;
+    width:335px;
+    height:190px;
+    text-align: center;
+    line-height: 95px;
+    text-shadow:2px 4px rgba(16,16,16,0.9) ;
+    position: absolute;
+    left: 20px;
+    top: 59px;
+
+}
+h6,h5{
+    height: 100px;
+    width: 1500px;
+    font-size: 15px;
+    font-family: "Gill Sans";
+    color:navajowhite;
+    text-shadow: 1px 1px 15px black;
+    visibility: hidden;
+}
+h6{
+    position: absolute;
+    top: 365px;
+    left: 20px;
+
+}
+h5{
+    position: absolute;
+    top: 455px;
+    left: 20px;
+
+}
+.errormessages{
+    visibility: visible;
+}
+.correct{
+    border: 2px solid greenyellow;
+}
+#email {
+    width: 335px;
+    height: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.28);
+    border: 0.5px solid #979797;
+    border-radius: 6px;
+    position: absolute;
+    top: 309px;
+    left: 20px;
+}
+#password {
+    width: 335px;
+    height: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.28);
+    border: 0.5px solid #979797;
+    border-radius: 6px;
+    position: absolute;
+    top: 408px;
+    left: 20px;
+}
+.placeholdertxt{
+    width: 189.51px;
+    height: 22px;
+    font-family: "Gill Sans";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #4A4A4A;
+}
+#registerbutton{
+    width: 148px;
+    height: 32px;
+    background-color: #F39965;
+    border-radius: 9px;
+    position: absolute;
+    left: 20px;
+    top: 558px;
+}
+#loginbutton{
+    width: 148px;
+    height: 32px;
+    background-color: #F39965;
+    border-radius: 9px;
+    position: absolute;
+    left: 225px;
+    top: 559px;
+}
+
+.error{
+    border: 2px solid #ff5f19;
+
+}
+
+h3{
+    width: 100.4px;
+    height: 24px;
+    font-family: "Gill Sans";
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 25px;
+    color: #25262A;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 2px;
+}
+#navigationbar{
+    width: 375px;
+    height: 54px;
+    background-color: #D99066;
+}
+#wearhouselogo{
+    width: 54px;
+    height: 90px;
+    position: relative;
+    float: left;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 19px;
+    margin-right: 25px;
+    padding-left: 5px;
+    color: whitesmoke;
+    text-shadow: .5px 1px rgba(16,16,16,0.9);
+
+}
+#scanner{
+    height: 51px;
+    width: 52px;
+    position: relative;
+    float: left;
+    margin-top: 3px;
+}
+#scannericon{
+    height: 41px;
+    width: 41px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+#mycloset{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    padding-top: 5px;
+}
+#closeticon{
+    height: 50px;
+    margin-left: 9px;
+
+}
+#othercloset{
+    height: 50px;
+    width: 80px;
+    margin-left: 47px;
+    margin-top: 5px;
+    position: relative;
+    float: left;
+}
+#othercloseticon{
+    height: 45px;
+
+}
+#favorite{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#favoriteicon{
+    height: 36px;
+    margin-left: 6px;
+    margin-top: 3px;
+
+}
+#closetcontent{
+    height: 621px;
+    width: 375px;
+    background-color: white;
+}
+#profilepic{
+    height: 80px;
+    width: 80px;
+    background-color: #0b2c89;
+    position: absolute;
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.profileicons{
+    width: 100%;
+}
+#user{
+    width: 95.74px;
+    height: 21px;
+    position: absolute;
+    float: left;
+    padding-top: 90px;
+    font-family: "Gill Sans";
+    font-size: 18px;
+    text-align: left;
+    color: #18294F;
+    margin-left: 100px;
+}
+#dropdownclosetmenu{
+    height: 17px;
+    width: 120px;
+    position: relative;
+    float: right;
+    margin-top: 92px;
+    font-family: "Gill Sans";
+    text-align: left;
+    font-size: 14px;
+    color: #18294F;
+}
+#dropdownarrow {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #0A246A;
+    float: right;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+#closet{
+    height: 497px;
+    width: 379px;
+    position: relative;
+    margin-right: 1px;
+    margin-left: .9px;
+    position: relative;
+    float: left;
+    padding-top: 15px;
+}
+.backgroundforicons{
+    background-color: white;
+}
+.fancybox {
+    height: 122.10px;
+    width: 122.10px;
+    position: relative;
+    float: left;
+    border: solid 1px white;
+}
+.clothingarticle{
+    width: 100%;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport" content="width=375px height=667px, initial-scale=1">
+
+    <title>Wearhouse.com</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+    <title>Wearhouse.com</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+    <!-- Optionally add helpers - button, thumbnail and/or media -->
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <style type="text/css">
+        .fancybox-custom .fancybox-skin {
+            box-shadow: 0 0 20px #222;
+            background-color: white;}
+     </style>
+
+</head>
+
+<body>
+
+<div id="wrapperforlogin">
+
+    <div id="navigationbar">
+
+        <div id="wearhouselogo">WEAR</br>HOUSE</div>
+
+        <a href="scaning.html">
+
+            <div id="scanner"><img id="scannericon" src="icons/scan me.png"></div>
+
+        </a>
+
+        <a href="mycloset.html">
+
+            <div id="mycloset"><img id="closeticon" src="icons/hanger.png"></div>
+
+        </a>
+
+
+        <a href="SearchForUsers.html">
+
+            <div id="othercloset" style="background-color: white;"><img id="othercloseticon" src="icons/otherhanger.png"></div>
+
+        </a>
+
+        <a href="favorites.html">
+
+        <div id="favorite"> <img id="favoriteicon" src="icons/favorite.png"></div>
+
+        </a>
+
+
+    </div>
+
+    <div id="closetcontent">
+
+        <div id="profilepic"><img class="profileicons" src="image/profilepic6.jpg"></div>
+
+        <div id="user">Sam2343</div>
+
+        <div id="dropdownclosetmenu"> MOST RECENT
+            <div id="dropdownarrow"></div>
+        </div>
+
+        <div id="closet">
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image1.png"></div>
+
+            <div class="fancybox" rel="group"  class="fancybox"><img class="clothingarticle" src="image/image2.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image3.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image4.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image5.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image6.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image7.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image8.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image9.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image10.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image11.png"></div>
+
+            <div class="fancybox" rel="group" class="fancybox"><img class="clothingarticle" src="image/image12.png"></div>
+
+        </div>
+
+
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#othercloseticon").css('background-color', 'white');
+        })
+    </script>
+</div>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $(".fancybox").fancybox();
+        });
+        </script>
+          <script type="text/javascript">
+        $('.fancybox').fancybox();
+
+        $(".fancybox-effects-a").fancybox({
+        helpers: {
+        title : {
+            type : 'outside'
+        },
+        overlay : {
+            speedOut : 0
+        }
+        }
+        });
+
+        </script>
+
+</body>
+
+</html>

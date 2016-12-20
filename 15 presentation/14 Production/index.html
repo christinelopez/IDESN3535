@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+  <head>
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+    <meta name="viewport" content="width=375px height=667px, initial-scale=1">
+
+    <title>Wearhouse.com</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+  </head>
+
+  <body>
+
+<div id="wrapperforlogin">
+
+  <img  id="background1" src="backgroundlogin.jpeg">
+
+  <h1> WEAR</br> HAUSE</h1>
+
+
+  <form name="registration_form" id="registration_form">
+
+    <h6 id="mail">name must contain minimum of 10 characters</h6>
+
+    <input class="placeholdertxt" id="email" type="text"  name="Email" placeholder="email">
+
+    <h5 id="pass">password must contain a number</h5>
+
+    <input class="placeholdertxt" id="password"type="text" placeholder="password">
+
+
+
+    <button id="registerbutton" class="buttons">
+
+    <h3>Register</h3>
+
+    </button>
+
+    <a href="mycloset.html">
+
+    <div id="loginbutton" class="buttons">
+
+    <h3>Sign In</h3>
+
+    </div>
+
+    </a>
+
+
+
+  </form>
+
+
+
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+
+      $(".buttons").click(function(){
+
+
+        $("#email").ready(function() {
+          if ($("#email").val().length<10) {
+            $("#email").addClass("error")
+
+            console.log("email, matches criteria")
+
+          }
+          else $("#email").addClass("correct")
+
+          $("#mail").addClass("errormessages")
+
+          console.log("user has submited invalid email, must contain 10 characters")
+
+        });
+
+
+        passfield("passwordContent",[0-9]);
+
+
+        $("#password").ready(function(passfield) {
+          if ($("#password").val(passfield)) {
+
+            $("#password").addClass("correct")
+
+            console.log("password criteria met")
+
+          }
+          else{
+
+            $("#password").addClass("correct")
+
+            $("#pass").addClass("errormessages")
+
+            console.log("password must contain a number")
+          }
+        });
+
+
+
+      });
+    });
+
+
+
+  </script>
+
+  </body>
+
+
+</html>
+
