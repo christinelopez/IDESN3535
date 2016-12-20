@@ -24,37 +24,33 @@
 
   <form name="registration_form" id="registration_form">
 
-    <input class="placeholdertxt" id="enteremail" name="enteremail" value="" placeholder="email">
+    <h2 id="mail">name must contain minimum of 10 characters</h2>
 
-    <span id="email_error_message" class="hidden">The email must be greater than 5 characters.</span>
+    <input class="placeholdertxt" id="email" type="text"  name="Email" placeholder="email">
 
+    <h4 id="pass">password must contain a number</h4>
 
-    <input class="placeholdertxt" id="enterpassword" placeholder="password">
-
-    <span id="password_error_message" class="hidden">The password must be greater than 7 characters .</span>
-
+    <input class="placeholdertxt" id="password"type="text" placeholder="password">
 
 
-    <div id="registerbutton">
 
+    <button id="registerbutton" class="buttons">
 
     <h3>Register</h3>
 
-    <input  class="text_field_format" type="button"
-            id="submit_button" name="submit_button" value="Submit form"
-            onclick="validate_form_data();"/>
+    </button>
 
-  </div>
+    <a href="mycloset.html">
 
-    <div id="loginbutton">
-
-      <a href="mycloset.html">
+    <div id="loginbutton" class="buttons">
 
     <h3>Sign In</h3>
 
-      </a>
-
     </div>
+
+    </a>
+
+
 
   </form>
 
@@ -63,7 +59,59 @@
 </div>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
+  <script>
+    $(document).ready(function(){
+
+      $(".buttons").click(function(){
+
+
+        $("#email").ready(function() {
+          if ($("#email").val().length<10) {
+            $("#email").addClass("error")
+
+            console.log("email, matches criteria")
+
+          }
+          else $("#email").addClass("correct")
+
+          $("#mail").addClass("errormessages")
+
+          console.log("user has submited invalid email, must contain 10 characters")
+
+        });
+
+
+        passfield("passwordContent",[0-9]);
+
+
+        $("#password").ready(function(passfield) {
+          if ($("#password").val(passfield)) {
+
+            $("#password").addClass("correct")
+
+            console.log("password criteria met")
+
+          }
+          else{
+
+            $("#password").addClass("correct")
+
+            $("#pass").addClass("errormessages")
+
+            console.log("password must contain a number")
+          }
+        });
+
+
+
+      });
+    });
+
+
+
+  </script>
 
   </body>
 

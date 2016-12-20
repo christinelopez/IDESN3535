@@ -39,7 +39,34 @@ h1{
     top: 59px;
 
 }
-#enteremail{
+h2,h4{
+    height: 100px;
+    width: 1500px;
+    font-size: 15px;
+    font-family: "Gill Sans";
+    color:navajowhite;
+    text-shadow: 1px 1px 15px black;
+    visibility: hidden;
+}
+h2{
+    position: absolute;
+    top: 365px;
+    left: 20px;
+
+}
+h4{
+    position: absolute;
+    top: 455px;
+    left: 20px;
+
+}
+.errormessages{
+    visibility: visible;
+}
+.correct{
+    border: 2px solid greenyellow;
+}
+#email {
     width: 335px;
     height: 50px;
     background-color: #FFFFFF;
@@ -50,7 +77,7 @@ h1{
     top: 309px;
     left: 20px;
 }
-#enterpassword{
+#password {
     width: 335px;
     height: 50px;
     background-color: #FFFFFF;
@@ -88,21 +115,12 @@ h1{
     left: 225px;
     top: 559px;
 }
-.text_field_format_error {
-    background-color: #fceef6 ;
-    border: 1px solid #fb0000 ;
+
+.error{
+    border: 2px solid #ff5f19;
+
 }
-.hidden{
-    visibility: hidden;
-}
-.visible{
-    visibility: visible;
-}
-.error_message_format {
-    text-transform: capitalize;
-    font-size: 7em;
-    font-weight: bold;
-}
+
 h3{
     width: 100.4px;
     height: 24px;

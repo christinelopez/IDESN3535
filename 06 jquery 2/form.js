@@ -32,7 +32,7 @@ function validate_form_data() {
 
     console.log("fullname: "+fullname);
 
-    var email = $("#enteremail").val().length;
+    var email = $("#email").val().length;
 
     var password = $("#password").val().length;
 
